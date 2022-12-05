@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levelling</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class=" bg-dark">
+
+
+    <div class=" px-5 pt-5">
+        <div class="container w-75 h-50 shadow bg-danger py-4 px-5">
+
+            <h1 class=" w-50 m-auto text-center ">Levelling APP</h1>
+
+            <input id="BM" class=" BM form-control my-3" type="text" placeholder="Bench Mark">
+            <input id="readingOfBM" class=" form-control my-3" type="text" placeholder="reading of stuff on Bench Mark">
+
+            <input id="readingOfFirstPT" class=" form-control my-3" type="text"
+                placeholder="itermediat sight  ex : 1.65 2.1 3 4.3">
+            <input id="forSight" class=" form-control my-3" type="text" placeholder="for sight">
+            <div class=" d-flex justify-content-center">
+                <button id="result" class=" btn btn-dark my-3 ">Get Result</button>
+            </div>
+            <div id="displayHI" class=" text-dark m-auto my-3"></div>
+            <div id="warning">
+
+            </div>
+            <table class=" text-dark m-auto my-3">
+                <thead>
+                    <th id="title" class="h4"> </th>
+                </thead>
+                <tbody id="displayResult">
+
+                </tbody>
+            </table>
+            <div id="displayHI1" class=" text-dark m-auto my-3"></div>
+            <div id="arthmeticCheck" class=" h4 text-warning">
+
+            </div>
+            <table class=" text-dark my-3">
+                <thead id="checkHead">
+
+                </thead>
+                <tbody id="checkResult">
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+
+    <div id="secondStand" class="d-none px-5">
+        <div class="container w-75 h-50 shadow bg-danger py-4 px-5">
+            <h1 class=" w-50 m-auto text-center ">Second Stand</h1>
+            <input id="BM2" class=" BM form-control my-3" type="text" placeholder="R.L of last PT">
+            <input id="readingOfBM2" class=" form-control my-3" type="text" placeholder="Back Sight">
+            <input id="readingOfFirstPT2" class=" form-control my-3" type="text"
+                placeholder="itermediat sight  ex : 1.65 2.1 3 4.3">
+            <input id="forSight2" class=" form-control my-3" type="text" placeholder="for sight">
+            <div class=" d-flex justify-content-center">
+                <button id="result2" class=" btn btn-dark my-3 ">Get Result</button>
+            </div>
+            <div id="displayHI2" class=" text-dark m-auto my-3"></div>
+            <div id="warning">
+            </div>
+            <table class=" text-dark m-auto my-3">
+                <thead>
+                    <th id="title2" class="h4"> </th>
+                </thead>
+                <tbody id="displayResult2">
+                </tbody>
+            </table>
+            <div id="displayHI22" class=" text-dark m-auto my-3"></div>
+            <div id="arthmeticCheck2" class=" h4 text-warning">
+            </div>
+            <table class=" text-dark my-3">
+                <thead id="checkHead2">
+                </thead>
+                <tbody id="checkResult2">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="thirdStand" class="d-none px-5">
+        <div class="container w-75 h-50 shadow bg-danger py-4 px-5">
+            <h1 class=" w-50 m-auto text-center ">Third Stand</h1>
+            <input id="BM3" class=" BM form-control my-3" type="text" placeholder="R.L of last PT">
+            <input id="readingOfBM3" class=" form-control my-3" type="text" placeholder="Back Sight">
+            <input id="readingOfFirstPT3" class=" form-control my-3" type="text"
+                placeholder="itermediat sight  ex : 1.65 2.1 3 4.3">
+            <input id="forSight3" class=" form-control my-3" type="text" placeholder="for sight">
+            <div class=" d-flex justify-content-center">
+                <button id="result3" class=" btn btn-dark my-3 ">Get Result</button>
+            </div>
+            <div id="displayHI3" class=" text-dark m-auto my-3"></div>
+            <div id="warning">
+            </div>
+            <table class=" text-dark m-auto my-3">
+                <thead>
+                    <th id="title3" class="h4"> </th>
+                </thead>
+                <tbody id="displayResult3">
+                </tbody>
+            </table>
+            <div id="displayHI23" class=" text-dark m-auto my-3"></div>
+            <div id="arthmeticCheck3" class=" h4 text-warning">
+            </div>
+            <table class=" text-dark my-3">
+                <thead id="checkHead3">
+                </thead>
+                <tbody id="checkResult3">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="fourthStand" class="d-none px-5">
+        <div class="container w-75 h-50 shadow bg-danger py-4 px-5">
+            <h1 class=" w-50 m-auto text-center ">Fourth Stand</h1>
+            <input id="BM4" class=" BM form-control my-3" type="text" placeholder="R.L of last PT">
+            <input id="readingOfBM4" class=" form-control my-3" type="text" placeholder="Back Sight">
+            <input id="readingOfFirstPT4" class=" form-control my-3" type="text"
+                placeholder="itermediat sight  ex : 1.65 2.1 3 4.3">
+            <input id="forSight4" class=" form-control my-3" type="text" placeholder="for sight">
+            <div class=" d-flex justify-content-center">
+                <button id="result4" class=" btn btn-dark my-3 ">Get Result</button>
+            </div>
+            <div id="displayHI4" class=" text-dark m-auto my-3"></div>
+            <div id="warning">
+            </div>
+            <table class=" text-dark m-auto my-3">
+                <thead>
+                    <th id="title4" class="h4"> </th>
+                </thead>
+                <tbody id="displayResult4">
+                </tbody>
+            </table>
+            <div id="displayHI24" class=" text-dark m-auto my-3"></div>
+            <div id="arthmeticCheck4" class=" h4 text-warning">
+            </div>
+            <table class=" text-dark my-3">
+                <thead id="checkHead4">
+                </thead>
+                <tbody id="checkResult4">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
